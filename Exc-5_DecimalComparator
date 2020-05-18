@@ -1,0 +1,14 @@
+public class DecimalComparator{
+ public static boolean areEqualByThreeDecimalPlaces(double x ,double y) {
+
+        x = x * 1000;
+        y = y * 1000;
+
+        int num1 = (int)x;
+        int num2 = (int)y;
+
+        if (num1==num2)return true;
+        else return false;
+
+    }
+}
